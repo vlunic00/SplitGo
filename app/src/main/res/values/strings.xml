@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SplitGo</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="prijava">Prijavite se</string>
+    <string name="uspijesno">Uspijesna prijava</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="linije">
+        <item>3 Lovrinac-Brda</item>
+        <item>9 Ravne Njive-Trajektna Luka</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
