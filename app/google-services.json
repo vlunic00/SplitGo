@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "311946657920",
+    "project_id": "splitgo-eb6f6",
+    "storage_bucket": "splitgo-eb6f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311946657920:android:3d981155a162e7c565a665",
+        "android_client_info": {
+          "package_name": "com.example.splitgo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj6okHsulOYHscwrsMqcKGdKI9dRV5P68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -25,7 +25,7 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.example.splitgo.databinding.ActivityMapsBinding
-import kotlinx.android.synthetic.main.activity_maps.*
+
 
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
@@ -48,21 +48,19 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
         val linije = resources.getStringArray(R.array.linije)
         val arrayAdapter = ArrayAdapter(this, R.layout.dropdown_item, linije)
-        autoCompleteTextView.setAdapter(arrayAdapter)
+        binding.autoCompleteTextView.setAdapter(arrayAdapter)
     }
 
 
     override fun onMapReady(googleMap: GoogleMap) {
         map = googleMap
 
-        autoCompleteTextView.onItemClickListener = AdapterView.OnItemClickListener{
-                parent, view, position, id ->
+        var onItemClickListener = AdapterView.OnItemClickListener { parent, view, position, id ->
 
-            if(position == 0){
+            if (position == 0) {
                 map.clear()
                 drawRoute3(map)
-            }
-            else if (position == 1){
+            } else if (position == 1) {
                 map.clear()
                 drawRoute9(map)
             }
