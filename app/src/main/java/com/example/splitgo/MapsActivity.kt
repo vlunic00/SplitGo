@@ -144,4 +144,10 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         val intent = Intent(this, LogInActivity::class.java)
         startActivity(intent)
     }
+
+    fun ticketScreen(view: View){
+        val intent = Intent(this, TicketActivity::class.java)
+        startActivity(intent)
+    }
+
 }
