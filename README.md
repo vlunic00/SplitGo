@@ -12,10 +12,10 @@ Simply pull the content from this repo, and run it in Android Studio
 
 ## Implemented functionalities
 
-The app currently let's preview 2 bus route's using Google Maps API and drawing vectors on a canvas overlaying it. The idea is to eventualy pull this data from
+-The app currently let's preview 2 bus route's using Google Maps API and drawing vectors on a canvas overlaying it. The idea is to eventualy pull this data from
 a database, rather than having it hardcoded in.
 
-There is a mockup login/register window.
+-There is a mockup login/register window.
 
 ## Project idea
 
